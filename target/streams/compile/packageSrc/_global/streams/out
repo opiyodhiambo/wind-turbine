@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/opiyo/adventure/dev/wind-turbine/target/scala-2.13/wind-turbine_2.13-1.0-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/opiyo/adventure/dev/wind-turbine/src/main/resources/application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/opiyo/adventure/dev/wind-turbine/src/main/resources/logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	adventure/Data.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/opiyo/adventure/dev/wind-turbine/src/main/scala/adventure/Data.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	adventure/SensorDataIngestion.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/opiyo/adventure/dev/wind-turbine/src/main/scala/adventure/SensorDataIngestion.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	adventure/SensorDataValidator.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/opiyo/adventure/dev/wind-turbine/src/main/scala/adventure/SensorDataValidator.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

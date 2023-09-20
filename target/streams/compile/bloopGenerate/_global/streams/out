@@ -1,0 +1,4 @@
+[debug] [wind-turbine] Classpath dependencies List()
+[debug] [wind-turbine] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'wind-turbine' to '/home/opiyo/adventure/dev/wind-turbine/.bloop/wind-turbine.json'
+[success] Generated .bloop/wind-turbine.json
