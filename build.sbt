@@ -15,7 +15,9 @@ dockerBaseImage :="eclipse-temurin:8u382-b05-jre@sha256:d86662a974929a154fe46d10
 ThisBuild / dynverSeparator := "-"
 // COnfiguring the sbt-native-packager to tag my image as latest
 dockerUpdateLatest := true
-
+// Deployment configuration
+dockerUsername := sys.props.get("docker.username")
+dockerRepository := sys.props.get("docker.registry")
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor-typed" % akkaVersion,
