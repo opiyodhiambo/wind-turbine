@@ -13,6 +13,9 @@ enablePlugins(JavaAppPackaging, DockerPlugin)
 Compile / mainClass := Some("adventure.SensorDataIngestion")
 dockerBaseImage :="eclipse-temurin:8u382-b05-jre@sha256:d86662a974929a154fe46d10fa17006b3663015e23caff53d2227b8de325bceb"
 ThisBuild / dynverSeparator := "-"
+// COnfiguring the sbt-native-packager to tag my image as latest
+dockerUpdateLatest := true
+
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor-typed" % akkaVersion,
