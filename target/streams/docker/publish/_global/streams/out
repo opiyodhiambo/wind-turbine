@@ -1,0 +1,52 @@
+[0m[[0m[0mdebug[0m] [0m[0mExecuting docker push opiyoarnold/wind-turbine:1.0[0m
+[0m[[0m[0minfo[0m] [0m[0mThe push refers to repository [docker.io/opiyoarnold/wind-turbine][0m
+[0m[[0m[0minfo[0m] [0m[0m19e95b70df3b: Preparing[0m
+[0m[[0m[0minfo[0m] [0m[0md88ed688a7f8: Preparing[0m
+[0m[[0m[0minfo[0m] [0m[0m02b1cf16b5d9: Preparing[0m
+[0m[[0m[0minfo[0m] [0m[0ma4c78728b01f: Preparing[0m
+[0m[[0m[0minfo[0m] [0m[0m6017406ffedd: Preparing[0m
+[0m[[0m[0minfo[0m] [0m[0m92b9cb139f19: Preparing[0m
+[0m[[0m[0minfo[0m] [0m[0m1418c2745d33: Preparing[0m
+[0m[[0m[0minfo[0m] [0m[0m2f3ff0b4cbda: Preparing[0m
+[0m[[0m[0minfo[0m] [0m[0mdc0585a4b8b7: Preparing[0m
+[0m[[0m[0minfo[0m] [0m[0m1418c2745d33: Waiting[0m
+[0m[[0m[0minfo[0m] [0m[0m2f3ff0b4cbda: Waiting[0m
+[0m[[0m[0minfo[0m] [0m[0mdc0585a4b8b7: Waiting[0m
+[0m[[0m[0minfo[0m] [0m[0m92b9cb139f19: Waiting[0m
+[0m[[0m[0minfo[0m] [0m[0m6017406ffedd: Mounted from library/eclipse-temurin[0m
+[0m[[0m[0minfo[0m] [0m[0m02b1cf16b5d9: Pushed[0m
+[0m[[0m[0minfo[0m] [0m[0ma4c78728b01f: Pushed[0m
+[0m[[0m[0minfo[0m] [0m[0m19e95b70df3b: Pushed[0m
+[0m[[0m[0minfo[0m] [0m[0m2f3ff0b4cbda: Mounted from library/eclipse-temurin[0m
+[0m[[0m[0minfo[0m] [0m[0m1418c2745d33: Mounted from library/eclipse-temurin[0m
+[0m[[0m[0minfo[0m] [0m[0m92b9cb139f19: Mounted from library/eclipse-temurin[0m
+[0m[[0m[0minfo[0m] [0m[0mdc0585a4b8b7: Mounted from library/eclipse-temurin[0m
+[0m[[0m[0minfo[0m] [0m[0md88ed688a7f8: Pushed[0m
+[0m[[0m[0minfo[0m] [0m[0m1.0: digest: sha256:b85d0043a15768d29af511b9cb420d5609dbd40149a05e94f59153074f7ffa7d size: 2203[0m
+[0m[[0m[0minfo[0m] [0m[0mPublished image opiyoarnold/wind-turbine:1.0[0m
+[0m[[0m[0mdebug[0m] [0m[0mExecuting docker push opiyoarnold/wind-turbine:latest[0m
+[0m[[0m[0minfo[0m] [0m[0mThe push refers to repository [docker.io/opiyoarnold/wind-turbine][0m
+[0m[[0m[0minfo[0m] [0m[0m19e95b70df3b: Preparing[0m
+[0m[[0m[0minfo[0m] [0m[0md88ed688a7f8: Preparing[0m
+[0m[[0m[0minfo[0m] [0m[0m02b1cf16b5d9: Preparing[0m
+[0m[[0m[0minfo[0m] [0m[0ma4c78728b01f: Preparing[0m
+[0m[[0m[0minfo[0m] [0m[0m6017406ffedd: Preparing[0m
+[0m[[0m[0minfo[0m] [0m[0m92b9cb139f19: Preparing[0m
+[0m[[0m[0minfo[0m] [0m[0m1418c2745d33: Preparing[0m
+[0m[[0m[0minfo[0m] [0m[0m2f3ff0b4cbda: Preparing[0m
+[0m[[0m[0minfo[0m] [0m[0mdc0585a4b8b7: Preparing[0m
+[0m[[0m[0minfo[0m] [0m[0m92b9cb139f19: Waiting[0m
+[0m[[0m[0minfo[0m] [0m[0m1418c2745d33: Waiting[0m
+[0m[[0m[0minfo[0m] [0m[0m2f3ff0b4cbda: Waiting[0m
+[0m[[0m[0minfo[0m] [0m[0mdc0585a4b8b7: Waiting[0m
+[0m[[0m[0minfo[0m] [0m[0m19e95b70df3b: Layer already exists[0m
+[0m[[0m[0minfo[0m] [0m[0md88ed688a7f8: Layer already exists[0m
+[0m[[0m[0minfo[0m] [0m[0ma4c78728b01f: Layer already exists[0m
+[0m[[0m[0minfo[0m] [0m[0m02b1cf16b5d9: Layer already exists[0m
+[0m[[0m[0minfo[0m] [0m[0m6017406ffedd: Layer already exists[0m
+[0m[[0m[0minfo[0m] [0m[0m92b9cb139f19: Layer already exists[0m
+[0m[[0m[0minfo[0m] [0m[0mdc0585a4b8b7: Layer already exists[0m
+[0m[[0m[0minfo[0m] [0m[0m1418c2745d33: Layer already exists[0m
+[0m[[0m[0minfo[0m] [0m[0m2f3ff0b4cbda: Layer already exists[0m
+[0m[[0m[0minfo[0m] [0m[0mlatest: digest: sha256:b85d0043a15768d29af511b9cb420d5609dbd40149a05e94f59153074f7ffa7d size: 2203[0m
+[0m[[0m[0minfo[0m] [0m[0mPublished image opiyoarnold/wind-turbine:latest[0m

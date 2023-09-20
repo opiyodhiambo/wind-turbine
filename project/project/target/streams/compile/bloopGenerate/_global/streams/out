@@ -1,4 +1,4 @@
-[debug] [wind-turbine-build-build] Classpath dependencies List()
-[debug] [wind-turbine-build-build] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'wind-turbine-build-build' to '/home/opiyo/adventure/dev/wind-turbine/project/project/.bloop/wind-turbine-build-build.json'
-[success] Generated .bloop/wind-turbine-build-build.json
+[0m[[0m[0mdebug[0m] [0m[0m[wind-turbine-build-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[wind-turbine-build-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'wind-turbine-build-build' to '/home/opiyo/adventure/dev/wind-turbine/project/project/.bloop/wind-turbine-build-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/wind-turbine-build-build.json[0m

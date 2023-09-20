@@ -16,8 +16,7 @@ ThisBuild / dynverSeparator := "-"
 // COnfiguring the sbt-native-packager to tag my image as latest
 dockerUpdateLatest := true
 // Deployment configuration
-dockerUsername := sys.props.get("docker.username")
-dockerRepository := sys.props.get("docker.registry")
+dockerUsername := Some("opiyoarnold")
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor-typed" % akkaVersion,
