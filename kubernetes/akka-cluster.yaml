@@ -1,0 +1,48 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name:  wind-turbine
+  namespace: wind-turbine
+  labels:
+    app:  wind-turbine
+spec:
+  selector:
+    matchLabels:
+      app: wind-turbine
+  replicas: 2
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app:  wind-turbine
+    spec:
+      containers:
+      - name:  wind-turbine
+        image:  opiyoarnold/wind-turbine:latest
+        imagePullPolicy: IfNotPresent
+        resources:
+          requests:
+            cpu: 100m
+            memory: 100Mi
+          limits:
+            cpu: 100m
+            memory: 100Mi
+        livenessProbe:
+          httpGet:
+            path: /alive
+            port: management
+        readinessProbe:
+          httpGet:
+            path: /ready
+            port: management
+                 
+        ports:
+        - containerPort:  8558
+          name:  management
+        - containerPort: 8080
+          protocol: TCP
+
